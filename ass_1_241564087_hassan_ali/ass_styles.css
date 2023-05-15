@@ -1,0 +1,183 @@
+/*
+ Header
+a. Create a header with the company logo on the left side and navigation menu on
+the right side.
+b. The navigation menu should include links (bookmarks) to “Home”, “Products”,
+“About Us”, and “Contact Us” sections.
+*/
+body {
+    font-family:verdana;
+}
+header {
+	height: 150px;
+    background-color: whitesmoke;
+	box-shadow: 7px 7px 7px rgb(150, 212, 208);
+	
+	justify-content: space-between;
+	align-items: center;
+    font-size: 30px;
+	font-weight: bold;
+	position: fixed;
+	top: 0;
+  	left: 0;
+  	width: 100%;
+}
+
+.company_logo img{
+    
+    height:150px; 
+    width: 350px;
+    border-radius: 7px;
+	box-shadow: 7px 7px 7px rgb(150, 212, 208);	
+
+}
+/*
+The navigation menu should include links (bookmarks) to “Home”, “Products”,
+“About Us”, and “Contact Us” sections.
+
+*/
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	
+	padding: 10px;
+    border-radius: 7px;
+    background-color: white;
+}
+
+nav a {
+color: black;
+text-decoration:none;
+}
+
+a:hover{
+	background-color:black;
+	color: white;
+	border-radius: 5px;
+}
+/*
+Hero Section
+a. Add a background image related to eco-friendly products.
+b. Include a headline that says, “Welcome to Eco-Friendly Products”, you are free
+to write a headline of your own.
+*/
+.hero-section {
+
+	background-image: url('back-ground.jpg');
+	box-shadow: 7px 7px 7px rgb(150, 212, 208);
+  	margin-top: 160px;
+	font-size: 20px;
+
+}
+
+/*
+c. Add a call-to-action button that links to the “Products” section. Write something
+appropriate in the button.
+*/
+  
+  .cta a {
+	display: inline-block;
+	padding: 12px 24px;
+	background-color: rgb(240, 143, 143);
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	font-weight: bold;
+
+  }
+  
+  .cta a:hover {
+	background-color: rgb(255, 111, 111);
+  }
+
+/*
+3. Products
+a. A carousel/grid of at least 8 products
+
+*/
+  .grid-container {
+	width: 100%;
+	box-shadow: 7px 7px 7px rgb(150, 212, 208);
+	background-color: rgb(255, 253, 249);
+	
+  }
+  
+  .grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 25px;
+
+ }
+
+  .product {
+	border: 1px solid salmon;
+	text-align: center;
+	width: 210px;
+	height: 210px;
+	box-shadow: 7px 7px 7px rgb(150, 212, 208);
+	
+  }
+  
+  .product img {
+	width: 100px;
+	height: 100px;
+  }
+/*
+4. About Us Section
+a. Add a brief description of the company and its mission to provide eco-friendly
+products.
+b. Include some images of the company’s best-selling products 
+*/
+
+  .about{
+	background-color: whitesmoke;
+	font-size: 20px;
+	box-shadow: 30px 7px 7px rgb(150, 212, 208);	
+	
+  }
+/* 
+a “Learn More”
+button (the button will do nothing in this case).
+
+*/
+  .display{
+
+	background-color: rgb(240, 143, 143);
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+  }
+
+/*
+5. Footer
+a. Include contact information such as the company’s address, phone number, and
+email.
+
+
+*/
+
+  footer {
+	box-shadow: 7px 7px 7px rgb(150, 212, 208);
+	display: flex;
+	font-weight: bold;
+	padding: 20px;
+	align-items: center;
+	box-shadow: 7px 7px 7px rgb(150, 212, 208);
+
+}
+/*
+b. Add social media links for the company’s pages on Facebook, Twitter, and
+Instagram.
+*/  
+  .social-links img{
+	width: 17%;
+	height: 17%;
+	float: right;
+	margin-left: 20px;
+	border-radius: 20px;
+  }

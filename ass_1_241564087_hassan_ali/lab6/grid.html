@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .gallery-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .gallery-item {
+        margin: 20px;
+        text-align: center;
+    }
+
+        .gallery-item img {
+            width: 80%;
+            max-width: 400px;
+            height: auto;
+        }
+
+        .gallery-item .caption {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+    @media (max-width: 768px) {
+        .gallery-item img {
+            max-width: 100%;
+        }
+    }
+</style>
+<head>
+    <title>Image Gallery</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+</head>
+
+
+
+<body>
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="product7.jpg" height="200px" width=" 200px" alt="Image 1">
+            <div class="caption">Solar charger</div>
+        </div>
+        <div class="gallery-item">
+            <img src="product8.jpg" alt="Image 2">
+            <div class="caption">Led Bulb</div>
+        </div>
+        <div class="gallery-item">
+            <img src="product7.jpg" alt="Image 3">
+            <div class="caption">Solar charger</div>
+        </div>
+        <div class="gallery-item">
+            <img src="product8.jpg" alt="Image 4">
+            <div class="caption">Led Bulb</div>
+        </div>
+    </div>
+
+</body>
+</html>
